@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+    background: #111;
+    padding: 15px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #00adb5;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00adb5;
+}
+
+/* Home */
+.home {
+    height: 90vh;
+    background: linear-gradient(to right, #222, #000);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home span {
+    color: #00adb5;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #00adb5;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #028d94;
+}
+
+/* Sections */
+section {
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Projects */
+.projects {
+    background: #f4f4f4;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #00adb5;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact a {
+    color: #00adb5;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
